@@ -2,38 +2,27 @@ package com.exercise;
 
 public class CountResult {
     private String word;
-    private Integer vowelCount;
+   private Integer vowelCount;
     private Integer  consonantCount;
 
-    public CountResult(String word, Integer vowelCount, Integer consonantCount) {
+    public CountResult(String word) {
         this.word = word;
-        this.vowelCount = vowelCount;
-        this.consonantCount =  consonantCount;
+        this.vowelCount = 0;
+        this.consonantCount = 0;
     }
 
-    public Integer getVowelCount() {
-        return vowelCount;
+
+    public Integer increaseVovwelCount() {
+        return ++vowelCount;
     }
 
-    public void setVowelCount(Integer vowelCount) {
-        this.vowelCount = vowelCount;
+    public Integer increaseConsonantCount() {
+        return ++consonantCount;
     }
 
-    public Integer getConsonantCount() {
-        return consonantCount;
-    }
-
-    public void setConsonantCount(Integer consonantCount) {
-        this.consonantCount = consonantCount;
-    }
-
-    public String getWord() {return word;}
-
-    public void setWord(String word) {this.word = word;}
-    
     @Override
     public String toString() {
-        return "CountResult{" +
+        return " CountResult{" +
                 "word='" + word + '\'' +
                 ", vowelCount=" + vowelCount +
                 " , consonantCount="+ consonantCount +
