@@ -6,7 +6,7 @@ import java.util.List;
 
 public class VowelCounter {
 
-    public List<CountResult> getLetterCount(String[] args) {
+    public static List<CountResult> getLetterCount(String[] args) {
 
 
         if (args.length >= 4) {

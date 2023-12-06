@@ -20,6 +20,13 @@ public class CountResult {
         return ++consonantCount;
     }
 
+    public Integer getVowelCount() {
+        return vowelCount;
+    }
+
+    public Integer getConsonantCount() {
+        return consonantCount;
+    }
     @Override
     public String toString() {
         return " CountResult{" +
