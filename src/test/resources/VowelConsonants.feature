@@ -26,6 +26,7 @@ Feature: VowelConsonants
       | second         |
       | third          |
       | fourth         |
+      | fifth          |
     When count vowels and consonants
     Then null should be returned
 
