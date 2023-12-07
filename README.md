@@ -1,3 +1,8 @@
+Please  see the Assignment File for questions and comments.
+
+# How to run
+You can use mvn test command to run the tests. 
+
 # Interview Exercise for Agile QA role
 
 Clone this repo in your private git space. Once done, please add github username: shilpa-sethi as a collaborator/ reviewer.
